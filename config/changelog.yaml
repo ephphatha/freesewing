@@ -1,4 +1,130 @@
+2.13.2:
+  date: 2021-02-21
+
+  Fixed:
+    bella:
+      - Fixed issue with out-of-order execution
+    create-freesewing-pattern:
+      - Updated chat link from gitter to discord
+    paco:
+      - Only add paperless dimensions for pockets if we drafted pockets
+    pattern-info:
+      - Make pattern list alphabetic
+    penelope:
+      - Fixed issue in shape part
+    simone:
+      - Fixed type in bustsidecode finder code
+    titan:
+      - Always ensure point waistIn is created in back part
+
+2.13.1:
+  date: 2021-02-14
+
+  Added:
+    utils:
+      - Pass pattern handle to tiler
+
+  Fixed:
+    hortensia:
+      - Fix incorrectly named part
+    simon:
+      - Added missing sleeve notch on yoke
+
+2.13.0:
+  date: 2021-02-13
+
+  Added:
+    components:
+      - Linedrawing for hortensia
+    hortensia:
+      - Initial release of Hortensia, a handbag pattern
+    i18n:
+      - Translation for Hortensia
+
+  Fixed:
+    bella:
+      - Verify whether back dart passes armhole depth
+    breanna:
+      - Try harder to find the intersection point for the scyedart
+      - Define missing y variable in paperless branch
+    bruce:
+      - Added notches to facilitate seam matching
+    components:
+      - Check point attributes are present before using them
+    hugo:
+      - Fix style of the seam allowance paths
+      - Fix sleeve dependencies
+    simone:
+      - Force bust dart intersection if not found initially
+    theo:
+      - Check for intersection returning an array
+    titan:
+      - Always balance the waist
+    wahid:
+      - Make sure roudEnd and roundStart points are always available
+
+2.12.1:
+  date: 2021-01-27
+  Added:
+    create-freesewing-pattern:
+      - Fixed missing dependency
+
+2.12.0:
+  date: 2021-01-19
+  Added:
+    bella:
+      - Initial release of this body block for womenswear
+
+2.11.3:
+  date: 2021-01-16
+  Added:
+    plugin-scalebox:
+      - Now includes the miniscale macro
+
+  Changed:
+    plugin-scalebox:
+      - Took my name off the patterns
+
+  Fixed:
+    albert:
+      - Added missing scalebox
+    bent:
+      - Added missing scalebox
+    bruce:
+      - Added missing scalebox
+    components:
+      - Fixed links in Workbench footer
+    florence:
+      - Added missing scalebox
+    florent:
+      - Added missing scalebox
+    holmes:
+      - Added missing scalebox
+    huey:
+      - Added missing scalebox
+      - Added cut-on-fold indicator to pocket
+      - Removed lingering notch from pocket part
+    hugo:
+      - Removed inherited notches
+    jaeger:
+      - Added missing scalebox
+    shin:
+      - Added missing scalebox
+    simon:
+      - Cleaned up notches
+      - Marked where to match fabric on closure
+    simone:
+      - Cleaned up notches
+    theo:
+      - Cleaned up notches
+    wahid:
+      - Added missing scalebox
+      - Proper styling for SA on front and back
+    waralee:
+      - Added missing scalebox
+
 2.11.2:
+  date: 2021-01-11
   Fixed:
     components:
       - Fixed links in Workbench footer

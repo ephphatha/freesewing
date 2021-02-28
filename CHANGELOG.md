@@ -1,7 +1,279 @@
 # Change log for: FreeSewing (global)
 
 
-## 2.11.2 (NaN-NaN-NaN)
+## 2.13.2 (2021-02-21)
+
+### bella
+
+#### Fixed
+
+ - Fixed issue with out-of-order execution
+
+### create-freesewing-pattern
+
+#### Fixed
+
+ - Updated chat link from gitter to discord
+
+### paco
+
+#### Fixed
+
+ - Only add paperless dimensions for pockets if we drafted pockets
+
+### pattern-info
+
+#### Fixed
+
+ - Make pattern list alphabetic
+
+### penelope
+
+#### Fixed
+
+ - Fixed issue in shape part
+
+### simone
+
+#### Fixed
+
+ - Fixed type in bustsidecode finder code
+
+### titan
+
+#### Fixed
+
+ - Always ensure point waistIn is created in back part
+
+
+## 2.13.1 (2021-02-14)
+
+### hortensia
+
+#### Fixed
+
+ - Fix incorrectly named part
+
+### simon
+
+#### Fixed
+
+ - Added missing sleeve notch on yoke
+
+### utils
+
+#### Added
+
+ - Pass pattern handle to tiler
+
+
+## 2.13.0 (2021-02-13)
+
+### bella
+
+#### Fixed
+
+ - Verify whether back dart passes armhole depth
+
+### breanna
+
+#### Fixed
+
+ - Try harder to find the intersection point for the scyedart
+ - Define missing y variable in paperless branch
+
+### bruce
+
+#### Fixed
+
+ - Added notches to facilitate seam matching
+
+### components
+
+#### Added
+
+ - Linedrawing for hortensia
+
+#### Fixed
+
+ - Check point attributes are present before using them
+
+### hortensia
+
+#### Added
+
+ - Initial release of Hortensia, a handbag pattern
+
+### hugo
+
+#### Fixed
+
+ - Fix style of the seam allowance paths
+ - Fix sleeve dependencies
+
+### i18n
+
+#### Added
+
+ - Translation for Hortensia
+
+### simone
+
+#### Fixed
+
+ - Force bust dart intersection if not found initially
+
+### theo
+
+#### Fixed
+
+ - Check for intersection returning an array
+
+### titan
+
+#### Fixed
+
+ - Always balance the waist
+
+### wahid
+
+#### Fixed
+
+ - Make sure roudEnd and roundStart points are always available
+
+
+## 2.12.1 (2021-01-27)
+
+### create-freesewing-pattern
+
+#### Added
+
+ - Fixed missing dependency
+
+
+## 2.12.0 (2021-01-19)
+
+### bella
+
+#### Added
+
+ - Initial release of this body block for womenswear
+
+
+## 2.11.3 (2021-01-16)
+
+### albert
+
+#### Fixed
+
+ - Added missing scalebox
+
+### bent
+
+#### Fixed
+
+ - Added missing scalebox
+
+### bruce
+
+#### Fixed
+
+ - Added missing scalebox
+
+### components
+
+#### Fixed
+
+ - Fixed links in Workbench footer
+
+### florence
+
+#### Fixed
+
+ - Added missing scalebox
+
+### florent
+
+#### Fixed
+
+ - Added missing scalebox
+
+### holmes
+
+#### Fixed
+
+ - Added missing scalebox
+
+### huey
+
+#### Fixed
+
+ - Added missing scalebox
+ - Added cut-on-fold indicator to pocket
+ - Removed lingering notch from pocket part
+
+### hugo
+
+#### Fixed
+
+ - Removed inherited notches
+
+### jaeger
+
+#### Fixed
+
+ - Added missing scalebox
+
+### plugin-scalebox
+
+#### Added
+
+ - Now includes the miniscale macro
+
+#### Changed
+
+ - Took my name off the patterns
+
+### shin
+
+#### Fixed
+
+ - Added missing scalebox
+
+### simon
+
+#### Fixed
+
+ - Cleaned up notches
+ - Marked where to match fabric on closure
+
+### simone
+
+#### Fixed
+
+ - Cleaned up notches
+
+### theo
+
+#### Fixed
+
+ - Cleaned up notches
+
+### wahid
+
+#### Fixed
+
+ - Added missing scalebox
+ - Proper styling for SA on front and back
+
+### waralee
+
+#### Fixed
+
+ - Added missing scalebox
+
+
+## 2.11.2 (2021-01-11)
 
 ### brian
 

@@ -1,12 +1,7 @@
-import React, { useState } from 'react'
-import Draft from '../../Draft'
+import React from 'react'
 import Zoombox from '../Zoombox'
 import Design from '../Design'
 import DraftConfigurator from '../../DraftConfigurator'
-import fileSaver from 'file-saver'
-import theme from '@freesewing/plugin-theme'
-import Icon from '../../Icon'
-import IconButton from '@material-ui/core/IconButton'
 import DesignIcon from '@material-ui/icons/Fingerprint'
 import DumpIcon from '@material-ui/icons/LocalSee'
 import ClearIcon from '@material-ui/icons/HighlightOff'
@@ -14,26 +9,11 @@ import AdvancedIcon from '@material-ui/icons/Policy'
 import PaperlessIcon from '@material-ui/icons/Nature'
 import CompleteIcon from '@material-ui/icons/Style'
 import { FormattedMessage } from 'react-intl'
-import Events from './Events'
 import ActionsIcon from '@material-ui/icons/PlayCircleOutline'
 import Switch from '@material-ui/core/Switch';
 
 const DraftPattern = (props) => {
-  const styles = {
-    icon: {
-      margin: '0 0.25rem'
-    },
-    unhide: {
-      position: 'absolute',
-      top: '76px',
-      right: 0,
-      background: props.theme === 'dark' ? '#f8f9fa' : '#212529',
-      borderTopLeftRadius: '50%',
-      borderBottomLeftRadius: '50%',
-      width: '26px',
-      height: '30px'
-    }
-  }
+
   let focusCount = 0
   if (props.focus !== null) {
     for (let p of Object.keys(props.focus)) {
@@ -42,13 +22,6 @@ const DraftPattern = (props) => {
       for (let i in props.focus[p].coords) focusCount++
     }
   }
-
-  let iconProps = {
-    size: 'small',
-    style: styles.icon,
-    color: 'inherit'
-  }
-  const color = (check) => (check ? '#40c057' : '#fa5252')
 
   return (
     <ul id='draft-config'>

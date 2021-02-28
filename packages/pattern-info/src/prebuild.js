@@ -2,6 +2,7 @@ const path = require('path')
 const fse = require('fs-extra')
 const aaron = require('@freesewing/aaron').config
 const albert = require('@freesewing/albert').config
+const bella = require('@freesewing/bella').config
 const benjamin = require('@freesewing/benjamin').config
 const bent = require('@freesewing/bent').config
 const brian = require('@freesewing/brian').config
@@ -14,6 +15,7 @@ const cathrin = require('@freesewing/cathrin').config
 const florent = require('@freesewing/florent').config
 const florence = require('@freesewing/florence').config
 const holmes = require('@freesewing/holmes').config
+const hortensia = require('@freesewing/hortensia').config
 const huey = require('@freesewing/huey').config
 const hugo = require('@freesewing/hugo').config
 const jaeger = require('@freesewing/jaeger').config
@@ -35,6 +37,7 @@ const waralee = require('@freesewing/waralee').config
 const patterns = {
   aaron,
   albert,
+  bella,
   benjamin,
   bent,
   brian,
@@ -47,6 +50,7 @@ const patterns = {
   florent,
   florence,
   holmes,
+  hortensia,
   huey,
   hugo,
   jaeger,
